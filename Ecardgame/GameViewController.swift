@@ -275,6 +275,7 @@ class GameViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             slaveButton.isEnabled = false
+            citizen5.isHidden = true
         case ["citizen6"]:
             loseLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -282,6 +283,7 @@ class GameViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             slaveButton.isEnabled = false
+            citizen6.isHidden = true
         case ["citizen7"]:
             loseLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -289,6 +291,7 @@ class GameViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             slaveButton.isEnabled = false
+            citizen7.isHidden = true
         case ["citizen8"]:
             loseLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -296,6 +299,7 @@ class GameViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             slaveButton.isEnabled = false
+            citizen8.isHidden = true
         default:
             break
         }

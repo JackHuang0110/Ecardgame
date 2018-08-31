@@ -270,6 +270,7 @@ class EmperorViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             emperorButton.isEnabled = false
+            citizen5.isHidden = true
         case ["citizen6"]:
             winLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -277,6 +278,7 @@ class EmperorViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             emperorButton.isEnabled = false
+            citizen6.isHidden = true
         case ["citizen7"]:
             winLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -284,6 +286,7 @@ class EmperorViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             emperorButton.isEnabled = false
+            citizen7.isHidden = true
         case ["citizen8"]:
             winLabel.isHidden = false
             citizen1Button.isEnabled = false
@@ -291,6 +294,7 @@ class EmperorViewController: UIViewController {
             citizen3Button.isEnabled = false
             citizen4Button.isEnabled = false
             emperorButton.isEnabled = false
+            citizen8.isHidden = true
         default:
             break
         }
