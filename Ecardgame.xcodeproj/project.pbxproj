@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322A9FBD2139207300FB1310 /* EmperorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A9FBC2139207300FB1310 /* EmperorViewController.swift */; };
 		324B3B8D212E81AB00A166B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B3B8C212E81AB00A166B9 /* AppDelegate.swift */; };
-		324B3B8F212E81AB00A166B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B3B8E212E81AB00A166B9 /* ViewController.swift */; };
 		324B3B92212E81AB00A166B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324B3B90212E81AB00A166B9 /* Main.storyboard */; };
 		324B3B94212E81AD00A166B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324B3B93212E81AD00A166B9 /* Assets.xcassets */; };
 		324B3B97212E81AD00A166B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324B3B95212E81AD00A166B9 /* LaunchScreen.storyboard */; };
+		324B3B9F212E834E00A166B9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B3B9E212E834E00A166B9 /* MenuViewController.swift */; };
+		324B3BA1212E835B00A166B9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B3BA0212E835B00A166B9 /* GameViewController.swift */; };
+		324B3BA3212E837300A166B9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B3BA2212E837300A166B9 /* Card.swift */; };
+		324B3BCE2133C56F00A166B9 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 324B3BCD2133C56F00A166B9 /* background.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322A9FBC2139207300FB1310 /* EmperorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmperorViewController.swift; sourceTree = "<group>"; };
 		324B3B89212E81AB00A166B9 /* Ecardgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecardgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324B3B8C212E81AB00A166B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		324B3B8E212E81AB00A166B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		324B3B91212E81AB00A166B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		324B3B93212E81AD00A166B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324B3B96212E81AD00A166B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		324B3B98212E81AD00A166B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324B3B9E212E834E00A166B9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		324B3BA0212E835B00A166B9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		324B3BA2212E837300A166B9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		324B3BCD2133C56F00A166B9 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				324B3B8C212E81AB00A166B9 /* AppDelegate.swift */,
-				324B3B8E212E81AB00A166B9 /* ViewController.swift */,
 				324B3B90212E81AB00A166B9 /* Main.storyboard */,
+				322A9FBC2139207300FB1310 /* EmperorViewController.swift */,
+				324B3BCD2133C56F00A166B9 /* background.mp3 */,
+				324B3B9E212E834E00A166B9 /* MenuViewController.swift */,
+				324B3BA0212E835B00A166B9 /* GameViewController.swift */,
+				324B3BA2212E837300A166B9 /* Card.swift */,
 				324B3B93212E81AD00A166B9 /* Assets.xcassets */,
 				324B3B95212E81AD00A166B9 /* LaunchScreen.storyboard */,
 				324B3B98212E81AD00A166B9 /* Info.plist */,
@@ -122,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324B3BCE2133C56F00A166B9 /* background.mp3 in Resources */,
 				324B3B97212E81AD00A166B9 /* LaunchScreen.storyboard in Resources */,
 				324B3B94212E81AD00A166B9 /* Assets.xcassets in Resources */,
 				324B3B92212E81AB00A166B9 /* Main.storyboard in Resources */,
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324B3B8F212E81AB00A166B9 /* ViewController.swift in Sources */,
+				322A9FBD2139207300FB1310 /* EmperorViewController.swift in Sources */,
+				324B3BA3212E837300A166B9 /* Card.swift in Sources */,
+				324B3BA1212E835B00A166B9 /* GameViewController.swift in Sources */,
+				324B3B9F212E834E00A166B9 /* MenuViewController.swift in Sources */,
 				324B3B8D212E81AB00A166B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FM25PCYQFD;
 				INFOPLIST_FILE = Ecardgame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FM25PCYQFD;
 				INFOPLIST_FILE = Ecardgame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
